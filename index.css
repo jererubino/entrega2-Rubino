@@ -44,3 +44,44 @@ header {
     align-items: center;
     flex-wrap: wrap;
     /*     background-color:			#8B4513; */
+}
+
+.container-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-info{
+    width: 55%;
+}
+
+.container-header img{
+    width: 40%;
+}
+.container-header p{
+    width: 50%;
+    font-size: 3em;
+    font-family:'Yanone Kaffeesatz', sans-serif ;
+}
+
+.container-header h1{
+    font-family:'Yanone Kaffeesatz', sans-serif ;
+    font-size: 2em;
+    width: 50%;
+}
+
+.container-header button{
+    width: 30%;
+    height: 50%;
+    color: black;
+    background-color: white;
+border: 0;
+outline: 0;
+border-radius: 15px;
+font-size: 1.3em;
+font-family:'Yanone Kaffeesatz', sans-serif ;
+
+}
